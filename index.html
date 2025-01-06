@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="calculator">
+            <div id="containerSearch">
+                <input type="text" id="screen" value=".........." readonly>
+            </div>
+            <div id="containerOperator">
+                <input type="button" value="/" id="elements" onclick="add('/')">
+                <input type="button" value="*" id="elements" onclick="add('*')">
+                <input type="button" value="+" id="elements" onclick="add('+')">
+                <input type="button" value="-" id="elements" onclick="add('-')">
+                <input type="button" value="7" id="elements" onclick="add('7')">
+                <input type="button" value="8" id="elements" onclick="add('8')">
+                <input type="button" value="9" id="elements" onclick="add('9')">
+                <input type="button" value="CE"id="ce">
+                <input type="button" value="4" id="elements" onclick="add('4')">
+                <input type="button" value="5" id="elements" onclick="add('5')">
+                <input type="button" value="6" id="elements" onclick="add('6')">
+                <input type="button" value="1" id="elements" onclick="add('1')">
+                <input type="button" value="2" id="elements" onclick="add('2')">
+                <input type="button" value="3" id="elements" onclick="add('3')">
+                <input type="button" value="=" id="calculate">
+                <input type="button" value="0" id="elements" onclick="add('0')">
+                <input type="button" value="." id="elements" onclick="add('.')">
+            </div>
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
